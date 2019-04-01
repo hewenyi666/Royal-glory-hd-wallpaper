@@ -1,4 +1,4 @@
-                              王者荣耀官方网站的高清壁纸
+                                              获取王者荣耀的高清壁纸
 采用的方法: selenium+requests+BeautifulSoup
 王者荣耀官方网站的url: https://pvp.qq.com/web201605/wallpaper.shtml
 
