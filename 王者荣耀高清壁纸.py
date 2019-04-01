@@ -20,7 +20,7 @@ def get_image(soup):
             list2.append(vv['alt'])
     for mm in range(len(list1)):
         image_content=requests.get(list1[mm]).content
-        path='E:\\study\\爬虫\\高清壁纸\\'+list2[mm]+'.jpg'
+        path='E:\\study\\爬虫\\高清壁纸\\'+list2[mm]+'.jpg' #需要改成自己想存放文件的路径!!!!!!
         with open(path,'wb') as file1:
             file1.write(image_content)
 if __name__=='__main__':
